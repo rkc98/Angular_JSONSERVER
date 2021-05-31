@@ -1,0 +1,71 @@
+<div class="container" *ngFor="let user of userdata">
+  <div class="row">
+    <div class="col-sm-3">
+
+      <img src="server\images\{{user.image}}" alt="{{user.image}}" style="width: 200px; height: 200px;">
+      
+      
+      
+    </div>
+    <div class="col-sm-2">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>FirstName:</p>
+        </div>
+        <div class="col-sm-6">
+          <p>{{user.FirstName}}</p>
+        </div>
+        <div class="col-sm-6">
+          <p>LastName:</p>
+        </div>
+        <div class="col-sm-6">
+          <p>{{user.LastName}}</p>
+        </div>
+        <div class="col-sm-6">
+          <p>Mobile:</p>
+        </div>
+        <div class="col-sm-6">
+          <p>{{user.mobile}}</p>
+        </div>
+        <div class="col-sm-6">
+          <p>Email:</p>
+        </div>
+        <div class="col-sm-6">
+          <p>{{user.email}}</p>
+        </div>
+        <div class="col-sm-6">
+          <p>Age:</p>
+        </div>
+        <div class="col-sm-6">
+          <p>{{user.age}}</p>
+        </div>
+        <div class="col-sm-6">
+          <p>State:</p>
+        </div>
+
+        <div class="col-sm-6">
+          <p>{{user.state}}</p>
+        </div>
+        <div class="col-sm-6">
+          <p>Country:</p>
+        </div>
+        <div class="col-sm-6">
+          <p>{{user.country}}</p>
+        </div>
+        <div class="col-sm-6">
+          <p>Address:</p>
+        </div>
+        <div class="col-sm-6">
+          <p>{{user.address}}</p>
+        </div>
+        <div class="col-sm-6">
+          <p>Tags:</p>
+        </div>
+        <div class="col-sm-6" >
+          <p>{{user.tags}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button mat-raised-button color="warn" (click)="onedit()">Edit Details</button>
+</div>

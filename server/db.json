@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "FirstName": "First",
+      "LastName": "data",
+      "email": "abc@gmail.com",
+      "image": "Screenshot (2) (1).png",
+      "mobile": "12345678911",
+      "age": 31,
+      "state": "Maharashtra",
+      "country": "India",
+      "address": "colaba,Mumbai",
+      "tags": [
+        "apple",
+        "mango"
+      ],
+      "id": 1
+    }
+  ]
+}
